@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Infant|Garamond|Comforter&display=swap');
+
+*
+*:bafore,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	/*font-family: 'Cormorant Infant', serif;*/
+	font-family: 'Cormorant Garamond', serif;
+	line-height: initial;
+	color: black;	
+
+	margin: 0;
+}
+
+#top {
+	display: flex;
+	height: 40px;
+    justify-content: space-between;
+}
+
+/*img { 
+	display: flex;
+	max-width: 50px;
+}*/
+
+#logo > a {
+	display: flex;
+    font-weight: 100;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: justify;
+
+    transition: color 0.2s linear;
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    margin-left: 10px;
+}
+
+#logo > a:hover {
+	color: brown;
+}
+
+.logo {
+    width: 50px;
+}
+
+#logokos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+}
+
+header {
+	padding-top: auto;
+	width: 100%;
+	height: 50px;
+	left: 0;
+	top: 0;
+
+	position: flex;
+	z-index: 1;
+	text-align: justify;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+
+#kostanay {
+	/*padding-top: 20px;*/
+	padding-bottom: 55px;
+	width: 100%;
+	height: 5px;
+
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1000px;
+	font-size: 60px;
+	color: brown;
+	font-style: italic;
+	font-weight: 200;
+}
+#resto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 90%;
+	height: 500px;
+}
+
+
+#he {
+	font-size: 18px;
+	width: 100%;
+    height: fit-content;
+
+    background: linear-gradient(white,whitesmoke);
+    /*background-color: lavender;*/
+    background-size: 100%; 
+
+    position: relative;
+    margin-top: -14px;
+}
+
+
+.ar {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+	background-color: whitesmoke;
+	align-items: center;
+}
+
+#zag {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	color: black;
+}
+
+.img {
+	display: flex;
+	flex-direction: column;
+}
+
+#img {
+	height: 300px;
+}
+
+.colaj {
+	display: flex;
+}
+
+#colaj {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+}
+
+.post {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	background-color: white;
+	margin-bottom: 10em;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 50px;
+	font-size: 20px;
+}
+
+p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+
+#adress {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+footer {
+	display: flex;
+	margin: 0 auto;
+	text-align: left;
+	
+	height: 100px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#co {
+	display: flex;
+	font-size: 20px;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: last baseline;
+    margin: 0 auto;
+}
+
+#con {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em 0 1em;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 1em 0 1em;
+}
+
+.con {
+	display: flex;
+	padding: 0 1em 0 1em;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+  font-size: 20px;
+
+  text-decoration: none;
+}
+
+.fa-instagram:hover {
+	color: brown;
+}
+
+.fa-regular {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+
+	text-decoration: none;
+}
+
+.fa-regular:hover {
+	color: brown;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	padding: 0 1em 0 1em;
+}
+
+input {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 15px;
+
+	background: whitesmoke;
+	border: 1px solid lightgrey;
+
+	padding: 5px;
+}
+
+button {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+
+	color: black;
+	background: lightgray;
+	border: 1px solid darkgrey;
+	opacity: 0.8;
+
+	padding: 5px;
+}
+
+/*button:hover {
+	background: brown;
+	color: white;
+}*/
+
+
+
+/* Copyright */
+
+#copyright {
+	font-size: 14px;
+	color: black;
+	padding-top: 20px;
+	border-top: 1px solid lightgrey;
+	justify-content: center;
+	margin: 0 auto;
+	flex-wrap: wrap;
+
+	text-align: center;
+}
+
+
+
+
+
+@media (max-width: 614px) {
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+}
+
+	#top {
+		margin: 0 30px 0 0;
+	}
+
+
+	#s {
+		font-size: 20px;
+	}
+
+	#he {
+		font-size: 15px;
+	}
+
+	.nav1 > a {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 2px;
+		margin-bottom: 7px;
+	}
+
+	.nav1 > a:hover {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 2px;
+	}
+
+	#top {
+		margin: 0;
+	}
+
+	.text-block {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 2px;
+		margin-bottom: 5px;
+	}
+
+	#text-block {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 2px;
+		margin-bottom: 5px;
+	}
+
+	.ar {
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+
+	.p{
+		width: 100%;
+	}
+
+	.b {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+		width: 100%;
+		min-height: 400px;
+		height: max-content;
+		min-height: 500px;
+		margin: 1em auto 1em auto;
+
+		background-color: white;
+		box-shadow: 8px 9px 12px 3px lightgray, -8px -9px 12px 3px lightgray;
+		border-bottom: 2px solid darkgrey;
+	}
+
+	.im {
+		height: 350px;
+		width: 100%;
+
+	}
+
+	.location {
+		padding: 5px 0;
+		width: 90%;	
+	}
+
+	.location:after {
+		content: "";
+		display: block;
+
+		width: 100%;
+		height: 1px;
+
+		background-color: lightgray;
+		margin: 0 auto;
+	}
+
+	.img {
+		max-width: 400px;
+		margin: 0 auto;
+		align-items: center;
+		width: 100%;
+	}
+
+	#con {
+		font-size: 16px;
+	}
+}
+
+
+#oops {
+	color: gray;
+	font-weight: 100;
+}
+
+#scroll {
+	display: flex;
+	max-height: 300px;
+	flex-direction: column;
+	overflow: scroll;
+}
+
+#pipets {
+	width: 100%;
+}
+
+#social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-transform: uppercase;
+
+	font-family: Garamond;
+}
+
+.social {
+	display: flex;
+	text-transform: uppercase;
+	text-decoration: none;
+	justify-content: center;
+	color: black;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+
+    transition: color 0.2s linear;
+    font-weight: bolder;
+}
+
+.social:hover {
+	color: brown;
+}
